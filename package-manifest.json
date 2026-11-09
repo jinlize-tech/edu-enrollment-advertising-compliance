@@ -2,10 +2,10 @@
   "product_id": "JLZ-EDU-SK-082",
   "repository_name": "edu-enrollment-advertising-compliance",
   "product_type": "Skill",
-  "version": "1.0.0",
-  "package_path": "dist/edu-enrollment-advertising-compliance-v1.0.0.zip",
-  "sha256": "96F5F81E148D73A3AB6A613015147C61C13D9B625C521D8523D64B05AC5C91F4",
-  "bytes": 41831,
+  "version": "1.0.1",
+  "package_path": "dist/edu-enrollment-advertising-compliance-v1.0.1.zip",
+  "sha256": "6D5C2178B68C2FAFF0112DBF6BD7005D3465AC269F7934DEB81779259698BD01",
+  "bytes": 42852,
   "entries": [
     "edu-enrollment-advertising-compliance/README.md",
     "edu-enrollment-advertising-compliance/PRODUCT_SPEC.md",
@@ -34,5 +34,9 @@
   "license": "Apache-2.0",
   "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
   "workbuddy_validation": "NOT_EXECUTED",
-  "built_at": "2026-11-09T00:00:00+08:00"
+  "built_at": "2026-11-09T12:03:22.754889+00:00",
+  "previous_version": "1.0.0",
+  "previous_package_path": "dist/edu-enrollment-advertising-compliance-v1.0.0.zip",
+  "previous_package_sha256": "96F5F81E148D73A3AB6A613015147C61C13D9B625C521D8523D64B05AC5C91F4",
+  "patch_reason": "README_USAGE_INSTALLATION_AND_PLATFORM_METADATA_FINALIZATION"
 }
