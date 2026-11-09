@@ -1,0 +1,17 @@
+{
+  "product_id": "JLZ-EDU-SK-082",
+  "repository_name": "edu-enrollment-advertising-compliance",
+  "version": "1.0.1",
+  "tested_source_commit": "d66992577ac23fcffa8ef0ee0774975cb833dda4",
+  "tested_source_tree_sha": "c0ccb5a769d336f26f8bb02a073f0ba7d9a8acf2",
+  "package_path": "dist/edu-enrollment-advertising-compliance-v1.0.1.zip",
+  "package_sha256": "6D5C2178B68C2FAFF0112DBF6BD7005D3465AC269F7934DEB81779259698BD01",
+  "runtime_test_status": "LOCAL_TEST_PASS",
+  "runtime_test_count": 50,
+  "schema_validation_status": "SCHEMA_INSTANCE_VALIDATION_PASS",
+  "schema_validation_case_count": 16,
+  "model_runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "readme_repair": "PASS",
+  "plugin_author_name": null
+}
