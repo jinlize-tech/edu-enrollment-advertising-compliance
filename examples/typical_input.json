@@ -1,0 +1,14 @@
+{
+  "contract_version": "1.2.0",
+  "data_status": "confirmed",
+  "contains_sensitive_data": false,
+  "requested_output_language": "zh-CN",
+  "region": "广州市",
+  "business_type": "业务类型已核对（脱敏示例）",
+  "channel": "发布渠道已核对（脱敏示例）",
+  "content_text": "原始宣传内容已核对（脱敏示例）",
+  "course_and_price": "课程与价格信息已核对（脱敏示例）",
+  "promotion_rules": "优惠与名额规则已核对（脱敏示例）",
+  "case_authorization_status": "已取得明确授权并完成脱敏",
+  "target_audience": "目标受众已核对（脱敏示例）"
+}

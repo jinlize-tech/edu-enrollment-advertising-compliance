@@ -1,0 +1,63 @@
+{
+  "contract_version": "1.2.0",
+  "product_id": "JLZ-EDU-SK-082",
+  "status": "completed",
+  "status_reason": "已基于脱敏示例资料形成完整专业成果，并保留人工复核要求。",
+  "summary": "招生宣传合规预审的脱敏示例成果，仅用于结构演示。",
+  "deliverables": {
+    "合规风险表": [
+      {
+        "title": "合规风险表",
+        "content": "根据脱敏示例输入形成的合规风险表，包含依据、限制和下一步。",
+        "evidence_refs": [
+          "USER_INPUT_001"
+        ],
+        "risk_level": "medium",
+        "next_action": "由合规负责人/法律专业人员复核后使用"
+      }
+    ],
+    "建议改写版": [
+      {
+        "title": "建议改写版",
+        "content": "根据脱敏示例输入形成的建议改写版，包含依据、限制和下一步。",
+        "evidence_refs": [
+          "USER_INPUT_001"
+        ],
+        "risk_level": "medium",
+        "next_action": "由合规负责人/法律专业人员复核后使用"
+      }
+    ],
+    "发布前审批单": [
+      {
+        "title": "发布前审批单",
+        "content": "根据脱敏示例输入形成的发布前审批单，包含依据、限制和下一步。",
+        "evidence_refs": [
+          "USER_INPUT_001"
+        ],
+        "risk_level": "medium",
+        "next_action": "由合规负责人/法律专业人员复核后使用"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "title": "用户提供的脱敏示例资料",
+      "source_type": "user_provided",
+      "verification_status": "provided_by_user"
+    }
+  ],
+  "assumptions": [
+    "示例仅用于展示输出结构，不代表真实机构事实"
+  ],
+  "open_questions": [],
+  "human_review": {
+    "required": true,
+    "reviewer_role": "合规负责人/法律专业人员",
+    "review_points": [
+      "所有高风险宣传承诺、真实案例、未成年人代言和优惠稀缺性表述"
+    ],
+    "confirmed": true
+  },
+  "errors": [],
+  "next_action": "按待确认事项完成合规负责人/法律专业人员复核"
+}

@@ -1,0 +1,98 @@
+{
+  "contract_version": "1.2.0",
+  "product_id": "JLZ-EDU-SK-082",
+  "product_name": "招生宣传合规预审",
+  "product_type": "Skill",
+  "repository_name": "edu-enrollment-advertising-compliance",
+  "repository_url": "https://github.com/jinlize-tech/edu-enrollment-advertising-compliance",
+  "product_version": "1.0.0",
+  "batch": 1,
+  "business_category": "09 合规与风险中心",
+  "high_risk": true,
+  "deterministic": false,
+  "agent": false,
+  "core_outputs": [
+    "合规风险表",
+    "建议改写版",
+    "发布前审批单"
+  ],
+  "optional_outputs": [
+    "问题原文与原因",
+    "可保留表达",
+    "缺失证据清单"
+  ],
+  "all_outputs": [
+    "合规风险表",
+    "建议改写版",
+    "发布前审批单",
+    "问题原文与原因",
+    "可保留表达",
+    "缺失证据清单"
+  ],
+  "human_review_required": true,
+  "reviewer_role": "合规负责人/法律专业人员",
+  "commercial_boundary": null,
+  "input_required": [
+    "contract_version",
+    "data_status",
+    "contains_sensitive_data",
+    "region",
+    "business_type",
+    "channel",
+    "content_text",
+    "course_and_price",
+    "target_audience"
+  ],
+  "input_properties": {
+    "contract_version": {
+      "type": "string"
+    },
+    "data_status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "partially_confirmed",
+        "unconfirmed"
+      ]
+    },
+    "contains_sensitive_data": {
+      "type": "boolean"
+    },
+    "requested_output_language": {
+      "type": "string",
+      "enum": [
+        "zh-CN",
+        "en"
+      ],
+      "default": "zh-CN"
+    },
+    "region": {
+      "type": "string"
+    },
+    "business_type": {
+      "type": "string"
+    },
+    "channel": {
+      "type": "string"
+    },
+    "content_text": {
+      "type": "string"
+    },
+    "course_and_price": {
+      "type": "string"
+    },
+    "promotion_rules": {
+      "type": "string"
+    },
+    "case_authorization_status": {
+      "type": "string"
+    },
+    "target_audience": {
+      "type": "string"
+    }
+  },
+  "expected_scenario_count": 12,
+  "license": "Apache-2.0",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED"
+}

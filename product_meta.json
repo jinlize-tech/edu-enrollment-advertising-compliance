@@ -1,0 +1,31 @@
+{
+  "number": 82,
+  "product_id": "JLZ-EDU-SK-082",
+  "candidate_id": "CAND-001",
+  "chinese_name": "招生宣传合规预审",
+  "english_name": "Enrollment Advertising Compliance Review",
+  "repository_name": "edu-enrollment-advertising-compliance",
+  "repository_url": "https://github.com/jinlize-tech/edu-enrollment-advertising-compliance",
+  "product_type": "Skill",
+  "category": "09 合规与风险中心",
+  "batch": 1,
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "core_outputs": [
+    "合规风险表",
+    "建议改写版",
+    "发布前审批单"
+  ],
+  "optional_outputs": [
+    "问题原文与原因",
+    "可保留表达",
+    "缺失证据清单"
+  ],
+  "high_risk": true,
+  "deterministic": false,
+  "scenario_count": 12,
+  "package_path": "dist/edu-enrollment-advertising-compliance-v1.0.0.zip",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "status": "LOCAL_DEVELOPMENT_COMPLETE_PENDING_REMOTE_VERIFICATION"
+}

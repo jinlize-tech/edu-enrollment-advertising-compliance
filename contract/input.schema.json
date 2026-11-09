@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.jinlize.tech/education/JLZ-EDU-SK-082/input.schema.json",
+  "title": "招生宣传合规预审输入契约",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_version",
+    "data_status",
+    "contains_sensitive_data",
+    "region",
+    "business_type",
+    "channel",
+    "content_text",
+    "course_and_price",
+    "target_audience"
+  ],
+  "properties": {
+    "contract_version": {
+      "const": "1.2.0"
+    },
+    "data_status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "partially_confirmed",
+        "unconfirmed"
+      ],
+      "description": "输入资料的确认状态"
+    },
+    "contains_sensitive_data": {
+      "type": "boolean"
+    },
+    "requested_output_language": {
+      "type": "string",
+      "enum": [
+        "zh-CN",
+        "en"
+      ],
+      "default": "zh-CN"
+    },
+    "region": {
+      "title": "机构地区",
+      "description": "用于提示地方规则差异",
+      "type": "string",
+      "minLength": 1
+    },
+    "business_type": {
+      "title": "业务类型",
+      "description": "例如学科、素质、成人技能或企业培训",
+      "type": "string",
+      "minLength": 1
+    },
+    "channel": {
+      "title": "发布渠道",
+      "description": "文案、海报、短视频、直播等",
+      "type": "string",
+      "minLength": 1
+    },
+    "content_text": {
+      "title": "原始宣传内容",
+      "description": "待审查的完整原文",
+      "type": "string",
+      "minLength": 1
+    },
+    "course_and_price": {
+      "title": "课程与价格信息",
+      "description": "宣传涉及的真实课程及价格",
+      "type": "string",
+      "minLength": 1
+    },
+    "promotion_rules": {
+      "title": "优惠与名额规则",
+      "description": "活动机制、名额和期限",
+      "type": "string",
+      "minLength": 1
+    },
+    "case_authorization_status": {
+      "title": "案例与肖像授权状态",
+      "description": "真实案例、评价和肖像是否获授权",
+      "type": "string",
+      "minLength": 1
+    },
+    "target_audience": {
+      "title": "目标受众",
+      "description": "尤其说明是否面向未成年人或家长",
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}
